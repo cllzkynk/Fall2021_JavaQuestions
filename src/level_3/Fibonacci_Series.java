@@ -9,7 +9,7 @@ package level_3;
  */
 public class Fibonacci_Series {
 public static void main(String[] args) {
-		int num=27;
+		int num=27; // ilk kac terimi istedigimiz 
 		int t1=0;
 		int t2=1;
 		
