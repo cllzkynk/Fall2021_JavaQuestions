@@ -24,7 +24,7 @@ for(int t=0;t<n;t++) {
 	for(int k=t;k>0;k--) {
 		if(a[k]-a[k-1]<=2) {
 			count++;
-			//System.out.println(t+"  "+count);
+			System.out.println(t+"  "+count);
 			}
 		else 
 			break;

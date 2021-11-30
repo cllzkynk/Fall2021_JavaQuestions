@@ -1,4 +1,4 @@
-package studentPractise;
+package studentPractiseSelected;
 
 import java.util.Arrays;
 import java.util.Random;

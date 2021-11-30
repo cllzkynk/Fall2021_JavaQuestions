@@ -25,7 +25,7 @@ public class Roma {
 		int m;
 		int f;
 		int i;
-		String roma = "IVXLC";
+		String roma = "IVXLCDM";
 		for (int h = 0; h < girdi.length(); h++) {
 			if (girdi.charAt(h) == roma.charAt(1)) {
 				toplam += 5;
@@ -41,6 +41,7 @@ public class Roma {
 			if (girdi.charAt(h) == roma.charAt(4)) {
 				toplam += 100;
 			}
+			
 		}
 		for (i = 0; i < girdi.length(); i++) {
 			if (girdi.charAt(i) == roma.charAt(1) || girdi.charAt(i) == roma.charAt(2)

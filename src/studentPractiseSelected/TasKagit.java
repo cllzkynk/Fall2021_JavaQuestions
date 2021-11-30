@@ -1,4 +1,4 @@
-package studentPractise;
+package studentPractiseSelected;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class TasKagit {
 	        int kullaniciKazandi = 0;
 	 
 	        while(bilgisayarKazandi<3 && kullaniciKazandi<3){ //3 yapan kazanýr
-	            System.out.println("Taþ,Kaðýt,Makas ?"); //Kullanýcýdan deðer alýnýyor. //o,1,2 dýþý kontrlleri siz eklersiniz
+	            System.out.println("Taþ, Kaðýt, Makas ?\n[0     1     2  ]"); //Kullanýcýdan deðer alýnýyor. //o,1,2 dýþý kontrlleri siz eklersiniz
 	            int kullanici = inp.nextInt(); //kullanýcýdan alýnan deðer kullanici deðiþkenine atandý
 	            int bilgisayar = (int)(Math.random()*3); //bilgisiyar 0,1,2 random deðer oluþturuyor
 	 
