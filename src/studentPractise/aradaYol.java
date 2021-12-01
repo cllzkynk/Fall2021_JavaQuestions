@@ -37,5 +37,5 @@ public class aradaYol {
 				}
 			}
 		}
-	}
+	sc.close();}
 }

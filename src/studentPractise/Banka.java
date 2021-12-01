@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Banka {
 
-    private int alýnan_para;
+    @SuppressWarnings("unused")
+	private int alýnan_para;
     static int ödenen_para;
     static double kalan_borc;
     static int taksit_sayýsý;
@@ -50,7 +51,8 @@ public class Banka {
 
     }
 
-    public static void main(String[] args) {
+    @SuppressWarnings("unused")
+	public static void main(String[] args) {
 
         System.out.println("bankamýzýn kaç yýllýk üyesisiniz? ");
         int üyelik_süre = klavye.nextInt();

@@ -16,7 +16,7 @@ public class AdamAsmaca {
 		for (i = 0; i < kelime.length(); i++) {
 			eldevar[i] = "_ ";
 
-		}
+	scan.close();	}
 
 	 while (tahmin < 6) {
 		 String giris = scan.nextLine();

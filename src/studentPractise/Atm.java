@@ -40,5 +40,5 @@ public class Atm {
 				System.out.println("Çıkılıyor...");
 			break;
 		}
-	}
+	s.close();}
 }
