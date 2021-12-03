@@ -24,11 +24,11 @@ Ekstra: Ancak bu soruyu yaparken diðerlerinden farklý olarak eðim hesaplama iþle
 	        //System.out.println("egim"+egim);
 	        
 	        //oluþturduðumuz Egim metotunu burada kullanýyoruz.
-	        System.out.println("Eðim = "+Egim(x1,x2,y1,y2));
+	        System.out.println("Eðim = "+egim(x1,x2,y1,y2));
 	        
-	    }
+	   input.close(); }
 	    //Eðim adýnda bir metot oluþturuyoruz.
-	    public static double Egim(double x1,double x2,double y1,double y2)
+	    public static double egim(double x1,double x2,double y1,double y2)
 	    {
 	        double egim = ((y2-y1)/(x2-x1));
 	        return(egim);
