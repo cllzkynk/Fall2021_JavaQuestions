@@ -1,16 +1,19 @@
 package recursive;
-
+/**
+ * @author CELÝL
+ *
+ */
 public class ReserveString {
 
 	public static void main(String[] args) {
-		String str = "CELIL";
+		String str = "Freedom For Dream";
 
 		// cevir(str);
 
 		System.out.println(cevir(str));
 	}
 
-	private static String cevir(String str) {
+	public static String cevir(String str) {
 
 		if (str.isEmpty())
 			return str;
