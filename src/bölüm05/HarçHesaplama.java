@@ -1,0 +1,16 @@
+package bölüm05;
+
+public class HarçHesaplama {
+
+	public static void main(String[] args) {
+         double harc = 10_000;
+         int yýl = 0;
+         
+         while(harc < 20_000) {
+        	 harc *= 1.07;
+        	 yýl++;
+         }
+         System.out.printf(yýl + " yýl sonra Harc %.3f olacaktýr", harc);
+	}
+
+}

@@ -1,0 +1,26 @@
+CONSTRUCTORS:
+
+1)It is a special block of code ,similar to a method that is
+executed when we create an object of a class;
+2)The purpose of constructors is to initialize our fields.
+3)They must have the name same as  name of the class.
+4)Constructors do not have return types not even void.
+5)We can pass arguments to constructors just like we do for our methods.
+
+
+SIMILARITIES BETWEEN CONSTRUCTOR AND METHODS
+1)They both have parameters;
+2)Both can have access modifiers like private, public and protected/default;
+
+
+DIFFERENCES:
+1)AS we can you any name for our method we cannot use any name for constructor ,
+they must have the same name that class have.
+2)Constructors cannot return values as methods can.
+3)Constructors are automatically called when the instance of the class is created.
+When should we use constructors?
+When we want to control the initialization of the fields.
+
+Instead of accessing the fields one by one we can use our constructor to initialize them.
+
+

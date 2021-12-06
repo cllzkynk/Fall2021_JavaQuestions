@@ -1,0 +1,14 @@
+SUPER KEYWORD:
+it is used in subclasses to access superclass members;
+
+As we can use THIS keyword in Java to refer to the current class fields
+and methods
+WE CAN ALSO can use SUPER keywords to access field and method from
+immediate parent class.
+
+IN INHERITANCE when we create an obj of a class all of the default
+constructors from
+
+
+
+
