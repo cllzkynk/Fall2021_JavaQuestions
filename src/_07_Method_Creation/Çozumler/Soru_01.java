@@ -1,4 +1,4 @@
-package _07_Method_Creation.«ozumlerá√∂z√ºmler;
+package _07_Method_Creation.«ozumler ;
 
 import java.util.Scanner;
 

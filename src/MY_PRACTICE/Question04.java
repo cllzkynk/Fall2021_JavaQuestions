@@ -1,4 +1,4 @@
-package days04;
+package MY_PRACTICE;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;

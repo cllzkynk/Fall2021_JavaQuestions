@@ -1,4 +1,4 @@
-package Quiz.Quiz_04;
+package Quiz_04_;
 
 public class Q4_Ternary01 {
 

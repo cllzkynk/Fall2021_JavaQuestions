@@ -1,6 +1,6 @@
 package day06;
 
-import day05_StringManipulation_10112021.PalindromeString;
+ 
 
 public class Soru03 extends Soru02 {
 
