@@ -5,62 +5,62 @@ import java.util.Scanner;
 public class Banka {
 
     @SuppressWarnings("unused")
-	private int alýnan_para;
-    static int ödenen_para;
+	private int alinan_para;
+    static int odenen_para;
     static double kalan_borc;
-    static int taksit_sayýsý;
-    static int taksit_miktarý;
-    static double faiz_oraný;
+    static int taksit_sayisi;
+    static int taksit_miktari;
+    static double faiz_orani;
 
     static Scanner klavye = new Scanner(System.in);
 
-    Banka(int alýnan_para) {
+    Banka(int alinan_para) {
 
     }
 
-    public static void borcHesapla(int alýnan_para, int ödenen_para, int taksit_sayýsý) {
-        System.out.println("1000 TL borcunuz var. peþin olarak ödediðiniz miktarý TL cinsinden yazýnýz: ");
-        ödenen_para = klavye.nextInt();
+    public static void borcHesapla(int alinan_para, int odenen_para, int taksit_sayisi) {
+        System.out.println("1000 TL borcunuz var. peï¿½in olarak ï¿½dediï¿½iniz miktarï¿½ TL cinsinden yazï¿½nï¿½z: ");
+        odenen_para = klavye.nextInt();
 
-        System.out.println("kaç taksit ile ödemek istersiniz? ");
-        taksit_sayýsý = klavye.nextInt();
-        kalan_borc = (alýnan_para - ödenen_para);
-        System.out.println("kalan borç: " + kalan_borc);
+        System.out.println("kaï¿½ taksit ile ï¿½demek istersiniz? ");
+        taksit_sayisi = klavye.nextInt();
+        kalan_borc = (alinan_para - odenen_para);
+        System.out.println("kalan borï¿½: " + kalan_borc);
     }
 
-    public static double faizHesapla(int kalan_borc, int taksit_sayýsý) {
+    public static double faizHesapla(int kalan_borc, int taksit_sayisi) {
         double faiz = 0;
-        if (taksit_sayýsý < 12) {
-            faiz_oraný = 0;
-            faiz = kalan_borc / taksit_sayýsý;
+        if (taksit_sayisi < 12) {
+            faiz_orani = 0;
+            faiz = kalan_borc / taksit_sayisi;
         } else {
-            faiz_oraný = 0.5;
-            faiz = kalan_borc * 0.5 + kalan_borc / taksit_sayýsý;
+            faiz_orani = 0.5;
+            faiz = kalan_borc * 0.5 + kalan_borc / taksit_sayisi;
         }
 
         return faiz;
     }
 
-    public static double taksitHesapla(double kalan_borc, int taksit_sayýsý) {
-        double taksit = kalan_borc / taksit_sayýsý;
+    public static double taksitHesapla(double kalan_borc, int taksit_sayisi) {
+        double taksit = kalan_borc / taksit_sayisi;
         return taksit;
     }
 
-    public static void borcSil(int ödenen_para, int kalan_borc) {
-        kalan_borc = kalan_borc - ödenen_para;
+    public static void borcSil(int odenen_para, int kalan_borc) {
+        kalan_borc = kalan_borc - odenen_para;
 
     }
 
     @SuppressWarnings("unused")
 	public static void main(String[] args) {
 
-        System.out.println("bankamýzýn kaç yýllýk üyesisiniz? ");
-        int üyelik_süre = klavye.nextInt();
+        System.out.println("bankamï¿½zï¿½n kaï¿½ yï¿½llï¿½k ï¿½yesisiniz? ");
+        int uyelik_sure = klavye.nextInt();
 
-        if (üyelik_süre >= 12) {
-            System.out.println("bir yýldan fazla süredir müþterimiz olduðunuz için sizleri SIFIR FAÝZ ile destekliyoruz...\n iþlemlerinize sýfýrFaiz departmanýmýzdan devam ediyorsunuz...");
+        if (uyelik_sure >= 12) {
+            System.out.println("bir yï¿½ldan fazla sï¿½redir mï¿½ï¿½terimiz olduï¿½unuz iï¿½in sizleri SIFIR FAï¿½Z ile destekliyoruz...\n iï¿½lemlerinize sï¿½fï¿½rFaiz departmanï¿½mï¿½zdan devam ediyorsunuz...");
 
-            SýfýrFaiz sýfýrFaiz = new SýfýrFaiz(ödenen_para);
+            SifirFaiz sifirFaiz = new SifirFaiz(odenen_para);
 
         } else {
             //Banka();
