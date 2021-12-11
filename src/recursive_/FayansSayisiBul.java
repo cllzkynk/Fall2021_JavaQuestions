@@ -12,7 +12,7 @@ public class FayansSayisiBul {
 	 */
 
 	public static void main(String[] args) {
-		int n = 8, m = 6;
+		int n = 8, m = 8;
         System.out.println(minFyns(n, m));
 	}
 

@@ -19,6 +19,7 @@ public class Recursive3 {
 
     public static int toplam(int n) {
         System.out.println(n + " : " + n * n);
+       
         if (n == 1) return 1;
         else return (int) Math.pow(n, 3) + toplam(n - 1);
         // n*n (n-1)*(n-1) + (n-2)*(n-2) + ..... 1*1

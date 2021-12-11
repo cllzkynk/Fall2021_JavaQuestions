@@ -1,12 +1,14 @@
 package recursive_;
 
 public class Recursive2 {
-    public static void main(String[] args) {
+    @SuppressWarnings("unused")
+	public static void main(String[] args) {
 
         int a = 5;
 
         int c = 10 + a;
         int b = 2 + recursiveMethod5(10);
+        System.out.println(b);
         System.out.println(recursiveMethod5(50));
         System.out.println(recursiveMethod4(1000));
     }
