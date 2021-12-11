@@ -1,4 +1,4 @@
-package bolum02 ;
+package bolum02;
 
 public class Literaller {
 	public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class Literaller {
 		
 		short s = 32000;
 		
-		int i = 2147000000; // sayisnï¿½n baï¿½ï¿½na 0 koymuï¿½ olsak,02147000000 sayiyï¿½ 8 lik tabanda anlayacaktï¿½r ve yanlï¿½ï¿½lï¿½k olur..Dï¿½KKAT
+		int i = 2147000000; // sayýsnýn baþýna 0 koymuþ olsak,02147000000 sayýyý 8 lik tabanda anlayacaktýr ve yanlýþlýk olur..DÝKKAT
 		
 		long l = 9000000000000000000L;
 		
@@ -15,11 +15,11 @@ public class Literaller {
 		
 		double d = 1.0;
 		
-		// cok cok az kullanï¿½lï¿½r
+		// cok cok az kullanýlýr
 		
-		System.out.println(0B1111);// binary olarak yazdï¿½.iklik sistemde
-		System.out.println(07777);// sekizlik sistemde yazdï¿½
-		System.out.println(0XFFFFF);// 16 lk sistemde yazdï¿½.F 15 demektir.. A 10 demektir
+		System.out.println(0B1111);// binary olarak yazdý.iklik sistemde
+		System.out.println(07777);// sekizlik sistemde yazdý
+		System.out.println(0XFFFFF);// 16 lk sistemde yazdý.F 15 demektir.. A 10 demektir
 		System.out.println(1.23456E3);
 		System.out.println(1.23456E-2);
 	}

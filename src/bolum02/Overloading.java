@@ -1,4 +1,4 @@
-package bolum02�l�m02;
+package bolum02 ;
 
 public class Overloading {
 	public static void main(String[] args) {
@@ -17,22 +17,22 @@ public class Overloading {
 		return max(max(num1,num2),num3);
 	}
 	
-	public static int max(int say�1,int say�2) {
-		return (say�1 > say�2) ? say�1 : say�2;
+	public static int max(int sayi1,int sayi2) {
+		return (sayi1 > sayi2) ? sayi1 : sayi2;
 		
 		
 	}
 	
-	public static double max(double say�1,double say�2) {
+	public static double max(double sayi1,double sayi2) {
 		double max;
 		
-		if (say�1 > say�2) {
-			max = say�1;
+		if (sayi1 > sayi2) {
+			max = sayi1;
 		}else {
-			max = say�2;
+			max = sayi2;
 		}
 		//Alternatif
-		//max = (say�1 > say�2) ? say�1 : say�2;
+		//max = (sayi1 > sayi2) ? sayi1 : sayi2;
 		return max;
 		
 	}

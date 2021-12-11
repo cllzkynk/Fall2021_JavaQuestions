@@ -1,4 +1,4 @@
-package bolum02�l�m02;
+package bolum02 ;
 
 import java.util.Scanner;
 
@@ -6,21 +6,21 @@ public class OBEB {
 	public static void main(String[] args) {
 		Scanner java = new Scanner(System.in);
 
-		System.out.println("1. say�y� giriniz");
-		int say�1 = java.nextInt();
-		System.out.println("2. say�y� giriniz");
-		int say�2 = java.nextInt();
+		System.out.println("1. sayiy� giriniz");
+		int sayi1 = java.nextInt();
+		System.out.println("2. sayiy� giriniz");
+		int sayi2 = java.nextInt();
 
-		int obeb = obeb(say�1, say�2);
+		int obeb = obeb(sayi1, sayi2);
 		System.out.println(obeb);
 		java.close();
 	}
 
-	private static int obeb(int say�1, int say�2) {
+	private static int obeb(int sayi1, int sayi2) {
 		int obeb = 1;
 		int bolen = 2;
-		while (bolen <= say�1 && bolen <= say�2) {
-			if (say�1 % bolen == 0 && say�2 % bolen == 0) {
+		while (bolen <= sayi1 && bolen <= sayi2) {
+			if (sayi1 % bolen == 0 && sayi2 % bolen == 0) {
 				obeb = bolen;
 			}
 			bolen++;

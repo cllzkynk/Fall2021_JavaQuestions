@@ -1,4 +1,4 @@
-package bolum02 ;
+package bolum02;
 
 import java.util.Scanner;
 
@@ -6,14 +6,14 @@ public class OrtalamaHesaplama {
 	public static void main(String[] args) {
 		Scanner ahmet = new Scanner(System.in);
 		
-		System.out.println("Ortlama hesaplamak iï¿½in 3 sayi giriniz");
+		System.out.println("Ortlama hesaplamak için 3 sayý giriniz");
 		
-		double sayi1 = ahmet.nextDouble();
-		double sayi2 = ahmet.nextDouble();
-		double sayi3 = ahmet.nextDouble();
+		double sayý1 = ahmet.nextDouble();
+		double sayý2 = ahmet.nextDouble();
+		double sayý3 = ahmet.nextDouble();
 		
-		double ortalama =(sayi1 + sayi2 + sayi3)/3;
-		 System.out.println("Girilen 3 sayinï¿½n ortalamasï¿½ " + ortalama);
+		double ortalama =(sayý1 + sayý2 + sayý3)/3;
+		 System.out.println("Girilen 3 sayýnýn ortalamasý " + ortalama);
 		
 	}
 }

@@ -60,7 +60,7 @@ public class Banka {
         if (uyelik_sure >= 12) {
             System.out.println("bir y�ldan fazla s�redir m��terimiz oldu�unuz i�in sizleri SIFIR FA�Z ile destekliyoruz...\n i�lemlerinize s�f�rFaiz departman�m�zdan devam ediyorsunuz...");
 
-            SifirFaiz sifirFaiz = new SifirFaiz(odenen_para);
+           // SifirFaiz sifirFaiz = new SifirFaiz(odenen_para);
 
         } else {
             //Banka();
