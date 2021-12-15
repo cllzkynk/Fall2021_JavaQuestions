@@ -1,4 +1,4 @@
-package _07_Method_Creation.cozumler ;
+package _07_Method_Creation.Cozumler ;
 
 import java.util.Scanner;
 
